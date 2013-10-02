@@ -8,7 +8,7 @@ Check his readme and documentation for more info on how it works.
 Simply use this by adding the following to your `Gemfile`:
 
 ```ruby
-gem 'refinerycms-search', '~> 2.1.0', :git => 'git://github.com/diamondap/refinerycms-search.git', :branch => '2-1-stable
+gem 'refinerycms-search', '~> 2.1.0', :git => 'git://github.com/diamondap/refinerycms-search.git', :branch => '2-1-stable'
 ```
 
 Now, run ``bundle install``
