@@ -2,11 +2,11 @@ source 'http://rubygems.org'
 
 gemspec
 
-gem 'refinerycms', :git => 'git://github.com/refinery/refinerycms.git'
-gem 'refinerycms-i18n', :git => 'git://github.com/refinery/refinerycms-i18n.git'
+gem 'refinerycms', :git => 'git://github.com/refinery/refinerycms.git', '~> 2.1.0'
+gem 'refinerycms-i18n', :git => 'git://github.com/refinery/refinerycms-i18n.git', '~> 2.1.0'
 
 group :development, :test do
-  gem 'refinerycms-testing', :git => 'git://github.com/refinery/refinerycms.git'
+  gem 'refinerycms-testing', :git => 'git://github.com/refinery/refinerycms.git', '~> 2.1.0'
   gem 'guard-rspec', '~> 0.6.0'
 
   platforms :jruby do
